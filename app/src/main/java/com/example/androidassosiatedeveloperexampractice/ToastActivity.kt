@@ -40,7 +40,7 @@ class ToastActivity : AppCompatActivity() {
             val textView: TextView = layout.findViewById(R.id.text)
             textView.text = "This is a custom toast"
 
-            //This initialzies the toast and passes it the layout with the preset text view.
+            //This initializes the toast and passes it the layout with the preset text view.
             with (Toast(applicationContext)) {
                 setGravity(Gravity.CENTER_VERTICAL, 0, 0)
                 duration = Toast.LENGTH_LONG
