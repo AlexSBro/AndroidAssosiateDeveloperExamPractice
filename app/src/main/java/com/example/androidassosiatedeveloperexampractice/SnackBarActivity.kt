@@ -14,10 +14,10 @@ class SnackBarActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_snack_bar)
 
-        val completionSnackbar = Snackbar.make(activitySnackBarContainer, "Action Complete", Snackbar.LENGTH_LONG)
+        val completionSnackbar = Snackbar.make(activitySnackBarContainer, R.string.action_complete, Snackbar.LENGTH_LONG)
 
-        val actionSnackbar = Snackbar.make(activitySnackBarContainer, "Action required", Snackbar.LENGTH_INDEFINITE)
-        actionSnackbar.setAction("Action", View.OnClickListener { completionSnackbar.show() })
+        val actionSnackbar = Snackbar.make(activitySnackBarContainer,  R.string.action_required, Snackbar.LENGTH_INDEFINITE)
+        actionSnackbar.setAction(R.string.action, View.OnClickListener { completionSnackbar.show() })
         actionSnackbar.setTextColor(Color.RED)
 
         actionSnackbar.show()

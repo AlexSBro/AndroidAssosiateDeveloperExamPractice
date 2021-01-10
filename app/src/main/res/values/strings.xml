@@ -2,6 +2,17 @@
     <string name="app_name">AndroidAssosiateDeveloperExamPractice</string>
     <string name="title_activity_toast">ToastActivity</string>
 
+    <!--    These are for a small pop up at the bottom of the screen -->
+    <string name="action_required">Action required</string>
+    <string name="action_complete">Action complete</string>
+
+    <!--    This is  a small piece of clickable text for pop up at bottom of screen -->
+    <string name="action">Action</string>
+
+    <!--    These bits of text are all for small toast pop ups. -->
+    <string name="toast">Toast</string>
+    <string name="custom_toast">Custom Toast</string>
+    <string name="top_toast">Top Toast</string>
 
 
 </resources>

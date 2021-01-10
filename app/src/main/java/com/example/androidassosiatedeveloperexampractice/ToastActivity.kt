@@ -16,7 +16,7 @@ class ToastActivity : AppCompatActivity() {
         setContentView(R.layout.activity_toast)
 
         buttonToast.setOnClickListener(View.OnClickListener {
-            val text = "Toast"
+            val text = R.string.toast
             val duration = Toast.LENGTH_SHORT
 
             val toast = Toast.makeText(applicationContext, text, duration)
@@ -25,7 +25,7 @@ class ToastActivity : AppCompatActivity() {
 
 
         buttonTopToast.setOnClickListener(View.OnClickListener {
-            val toast = Toast.makeText(applicationContext, "Top Toast", Toast.LENGTH_LONG)
+            val toast = Toast.makeText(applicationContext,  R.string.top_toast, Toast.LENGTH_LONG)
             toast.setGravity(Gravity.TOP, 0, 40)
             toast.show()
         })
@@ -38,7 +38,7 @@ class ToastActivity : AppCompatActivity() {
             val layout: View = inflater.inflate(R.layout.custom_toast, container)
             //This finds and sets the text view
             val textView: TextView = layout.findViewById(R.id.text)
-            textView.text = "This is a custom toast"
+            textView.text = R.string.custom_toast.toString()
 
             //This initializes the toast and passes it the layout with the preset text view.
             with (Toast(applicationContext)) {
