@@ -3,16 +3,15 @@ package com.example.androidassosiatedeveloperexampractice
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import com.google.android.material.snackbar.Snackbar
-import kotlinx.android.synthetic.main.activity_snack_bar.*
+import kotlinx.android.synthetic.main.activity_snackbar.*
 
-class SnackBarActivity : AppCompatActivity() {
+class SnackbarActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_snack_bar)
+        setContentView(R.layout.activity_snackbar)
 
         val completionSnackbar = Snackbar.make(activitySnackBarContainer, R.string.action_complete, Snackbar.LENGTH_LONG)
 

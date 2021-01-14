@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    This sits at the center of the app screen -->
+    <string name="color"> How do you spell colour?</string>
+
+</resources>

@@ -1,21 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="app_name">AndroidAssosiateDeveloperExamPractice</string>
     <string name="title_activity_toast">ToastActivity</string>
 
     <!--    This sits at the center of the app screen -->
-    <string name="color"> How do you spell color?</string>
+    <string name="color">Comment épelez-vous la couleur?</string>
+
 
     <!--    These are for a small pop up at the bottom of the screen -->
-    <string name="action_required">Action required <xliff:b id="special_untranslatable_symbol">\u16E5</xliff:b></string>
-    <string name="action_complete">Action complete</string>
+    <string name="action_required">Action requise <xliff:b id = "special_untranslatable_symbol">\u16E5</xliff:b></string>
+    <string name="action_complete">Action terminée</string>
 
     <!--    This is  a small piece of clickable text for pop up at bottom of screen -->
     <string name="action">Action</string>
 
     <!--    These bits of text are all for small toast pop ups. -->
     <string name="toast">Toast</string>
-    <string name="custom_toast">Custom Toast</string>
-    <string name="top_toast">Top Toast</string>
+    <string name="custom_toast">Toast personnalisé</string>
+    <string name="top_toast">Haut Toast</string>
+
 
 </resources>
